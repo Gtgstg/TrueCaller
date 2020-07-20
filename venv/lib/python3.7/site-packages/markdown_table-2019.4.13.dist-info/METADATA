@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: markdown-table
+Version: 2019.4.13
+Summary: markown table generator
+Home-page: https://github.com/looking-for-a-job/markdown-table.py
+License: UNKNOWN
+Keywords: markown table
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: public
+Requires-Dist: setuptools
+
+<!--
+https://pypi.org/project/readme-generator/
+https://pypi.org/project/python-readme-generator/
+-->
+
+[![](https://img.shields.io/pypi/pyversions/markdown-table.svg?longCache=True)](https://pypi.org/project/markdown-table/)
+
+#### Installation
+```bash
+$ [sudo] pip install markdown-table
+```
+
+#### Classes
+class|`__doc__`
+-|-
+`markdown_table.Column` |attrs: `header`, `align` (`left`, `center`, `right`)
+`markdown_table.Table` |attrs: `columns`, `matrix`. methods: `getheaders()`, `getseparators()`, `getmatrix()`, `render()`
+
+#### Functions
+function|`__doc__`
+-|-
+`markdown_table.render(headers, matrix)` |return a string with markdown table (one-line cells only)
+
+<p align="center">
+    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+</p>
+
